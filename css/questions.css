@@ -1,0 +1,289 @@
+/* universal */
+.removable .collapse-question .question-display {
+  display: inline-block;
+}
+.collapse-question:hover {
+  cursor: pointer;
+  background: #edede9;
+  color: #000;
+  border-radius: 15px;
+}
+.removable .collapse-question {
+  text-align: left;
+  box-shadow: 0 10px 50px rgb(218, 218, 218);
+  border-radius: 15px;
+  padding: 7px;
+  word-wrap: break-word;
+}
+
+.dot-option-function {
+  position: relative;
+}
+.sub-menu .context-contain .image-file {
+  position: relative;
+  width: 450px;
+  margin: 5px auto;
+}
+.sub-menu .context-contain .image-file .image-icons {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-file {
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+
+.dot-option-function .dot_option_button {
+  position: absolute;
+  right: 10px;
+  bottom: -7px;
+  background: #ededea;
+  box-shadow: 0 10px 50px #eee;
+  border-radius: 7px;
+  border: 1px solid #2876bd;
+}
+
+.dot-option-function .dot_option_button .btn-remove {
+  color: black !important;
+  opacity: 0.8;
+  border: none;
+  width: 100%;
+}
+
+.dot-option-function .dot_option_button .btn-remove:hover {
+  color: white;
+  background: #ff3547;
+}
+
+.dot-option-function .dot_option_button .btn-edit {
+  width: 100%;
+  border: none;
+  opacity: 0.8;
+  color: black !important;
+}
+
+.dot-option-function .dot_option_button .btn-edit:hover {
+  color: white;
+  background: #2876bd;
+}
+/* universal */
+
+/* MCQ */
+.mcq-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.mcq-container .sub-menu .options-contain .bi {
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.mcq-container .sub-menu .options-contain .removable:hover .bi {
+  display: inline-block;
+  opacity: 1;
+}
+
+.mcq-container .context-contain .input-text {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.mcq-container .context-contain .input-text:focus-visible {
+  outline: none;
+  box-shadow: 0 0 5px #2876bd;
+}
+
+.mcq-container .context-contain .upload-image {
+  text-align: center;
+}
+
+.mcq-container .options-contain .form-check {
+  margin-bottom: 10px;
+}
+
+.mcq-container .options-contain .form-check .form-check-label .bi {
+  margin-left: 5px;
+}
+
+.mcq-container .button-context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mcq-container .button-context .form-context .frm .points {
+  width: 60px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.mcq-container .button-context .form-context .frm .points:focus-visible {
+  outline: none;
+  box-shadow: 0 0 5px #2876bd;
+}
+
+.mcq-container .button-context .form-context {
+  display: flex;
+}
+
+.mcq-container .add-options .btn {
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: #2876bd;
+  padding: 0;
+  cursor: pointer;
+}
+
+.mcq-container .add-options .btn:focus-visible {
+  outline: none;
+}
+
+.mcq-container .add-options .btn:active:focus {
+  box-shadow: none;
+}
+
+.mcq-container .button-context .btn .button-submit {
+  background: none;
+  box-shadow: none;
+  background: #2876bd;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.mcq-container .button-context .btn:active:focus {
+  box-shadow: none;
+}
+
+.mcq-container .button-context .form-context .frm:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .mcq-container {
+    font-size: 14px;
+  }
+
+  .mcq-container .button-context .btn .button-submit {
+    font-size: 14px;
+  }
+}
+/* MCQ */
+
+/* LongQ */
+.longQ-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.longQ-container .context-contain .input-text {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.longQ-container .context-contain .input-text:focus-visible {
+  outline: none;
+  box-shadow: 0 0 5px #2876bd;
+}
+
+.longQ-container .context-contain .upload-image {
+  text-align: center;
+}
+
+.longQ-container .options-contain .form-check {
+  margin-bottom: 10px;
+}
+
+.longQ-container .options-contain .form-check .form-check-label .bi {
+  margin-left: 5px;
+}
+
+.longQ-container .button-context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.longQ-container .button-context .form-context {
+  display: flex;
+}
+
+.longQ-container .button-context .form-context .frm .points {
+  width: 60px;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.longQ-container .button-context .form-context .frm .points:focus-visible {
+  outline: none;
+  box-shadow: 0 0 5px #2876bd;
+}
+
+.longQ-container .add-options .btn {
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: #2876bd;
+  padding: 0;
+  cursor: pointer;
+}
+
+.longQ-container .add-options .btn:focus-visible {
+  outline: none;
+}
+
+.longQ-container .add-options .btn:active:focus {
+  box-shadow: none;
+}
+
+.longQ-container .button-context .btn {
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: #2876bd;
+  padding: 0;
+  cursor: pointer;
+}
+
+.longQ-container .button-context .btn:focus-visible {
+  outline: none;
+}
+
+.longQ-container .button-context .btn:active:focus {
+  box-shadow: none;
+}
+
+.longQ-container .button-context .form-context .frm:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .longQ-container {
+    font-size: 14px;
+  }
+}
+/* LongQ */

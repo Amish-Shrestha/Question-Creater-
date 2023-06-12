@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'VAG Rounded Next', sans-serif;
+}
+
+body {
+  position: relative;
+  background: #edede9 !important;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes silder {
+  0% {
+    transform: translateX(-25px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.student-preview {
+  position: relative;
+  background: #edede9 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-dialog {
+  max-width: 70% !important;
+}
+
+.fixed {
+  background-color: aqua;
+  position: fixed;
+}
+
+main #add-section {
+  padding: 2.5%;
+}
+
+main #add-section .section-holder {
+  margin-bottom: 2.5%;
+  background: #fff;
+  padding: 1.25%;
+  border-radius: 15px;
+}
+
+main #add-section .section-holder .menu .section-button .bi {
+  cursor: pointer;
+}
+
+main #add-section .section {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+main #add-section .subsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section-holder .menu {
+  border-radius: 15px;
+}
+
+main .section-holder .menu .section-title {
+  text-align: center;
+  font-size: 2.4vw;
+  font-weight: 600;
+}
+
+main .section-holder .menu .section-button {
+  text-align: center;
+}
+
+main #add-section .section-holder .menu .section-input {
+  margin: 0 auto;
+  width: 20vw;
+}
+
+main #add-section .section-holder .menu .section-input .sectionInput {
+  width: 20vw;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+main #add-section .section-holder .menu .section-input .sectionInput:focus-visible {
+  outline: none;
+}
+
+main #add-section .section-holder .menu .section-input .sectionInputLine {
+  margin: 0;
+}
+
+main .section-holder .menu .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .section-holder .menu .button-container {
+  display: flex;
+}
+
+main .section-holder .menu .button-container .btn {
+  background: #2876bd;
+  color: #fff;
+}
+
+main .section-holder .menu .button-container .questions-option {
+  animation: silder 0.4s ease-in-out;
+}
+
+main .section-holder .menu .button-container .sub-button {
+  margin-left: 1%;
+}
+
+main .section-holder .menu .button-container .sub-button .btn {
+  background: #edede9;
+  color: black;
+}
+
+main .section-holder .collapse-section {
+  text-align: center;
+  padding: 1.5%;
+}
+
+main .section-holder .collapse-section .collapse-buttons .bi:not(:last-child) {
+  margin-right: 1.5%;
+}
+
+main .section-holder .collapse-section .collapse-buttons .bi:hover {
+  cursor: pointer;
+}
+
+main .heading-context .content-context {
+  position: relative;
+  background: #fff;
+  padding: 1.25%;
+  border-radius: 15px;
+}
+
+main .heading-context .content-context .logo-content {
+  text-align: center;
+}
+
+main .heading-context .content-context .logo-content .logo {
+  border-radius: 50%;
+  box-shadow: 0 10px 50px #eee;
+  width: 12vw;
+  height: 12vw;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+main .heading-context .content-context .heading-content .heading-content-grade {
+  text-align: center;
+}
+
+main .heading-context .content-context .heading-content .heading-content-question-type {
+  text-align: center;
+}
+
+main .heading-context .content-context .heading-content .heading-content-notice {
+  text-align: left;
+}
+
+main .heading-context .content-context .heading-content .time-mark-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .heading-context .content-context .margin {
+  margin-bottom: 1%;
+}
+
+main .heading-context .content-context .headingED {
+  position: absolute;
+  right: 2.5%;
+  top: 5.5%;
+}
+
+main .heading-context .content-context .headingED .bi {
+  cursor: pointer;
+}
+
+form .input-content .select-size {
+  width: 50%;
+  display: inline-block;
+}
+
+form .input-content .lable-con {
+  text-align: right;
+}
+
+form .input-content .input-text {
+  width: 50%;
+}
+
+form .upload-image .lable-con {
+  text-align: right;
+}
+
+form {
+  padding: 2.5%;
+}
+
+form .form-content {
+  background: #fff;
+  padding: 1.25%;
+  border-radius: 15px;
+}
+
+form .input-content-margin {
+  margin-bottom: 1%;
+}
+
+form .submit-form-button {
+  text-align: center;
+}
+
+form .heading-context .content-context .heading-header {
+  text-align: center;
+}
+
+form .heading-context .content-context .heading-header h3 {
+  opacity: 0.7;
+}
+
+form .form-content .input-content .upload-image .btn {
+  color: #000;
+  border-color: #2876bd;
+}
+
+form .form-content .input-content .upload-image .btn:hover {
+  color: #eee !important;
+  background: #2876bd;
+}
+
+form .form-content .input-content .upload-image .btn:active {
+  box-shadow: none;
+  color: #eee;
+}
+
+form .form-content .input-content .upload-image .btn:focus {
+  box-shadow: none;
+  color: #eee;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+}

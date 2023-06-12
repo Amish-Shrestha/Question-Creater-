@@ -1,0 +1,64 @@
+.student-header {
+  background: #2876bd;
+  color: #eee;
+  text-align: center;
+}
+.student-body .student-body-main .body-content {
+  padding: 0 25px;
+}
+.student-body .student-body-main .body-content .btn-prev {
+  text-align: left;
+}
+.student-body .student-body-main .body-content .btn-next {
+  text-align: right;
+}
+
+/* student-section */
+.student-section {
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+.student-section .student-section-main {
+}
+.student-section .student-section-main .student-section-header {
+  text-align: center;
+}
+
+.student-section
+  .student-section-main
+  .student-section-body
+  .student-section-title {
+  text-align: left;
+}
+
+.student-section
+  .student-section-main
+  .student-section-body
+  .student-section-point {
+  text-align: right;
+}
+
+.student-section
+  .student-section-main
+  .student-section-body
+  .student-section-A {
+  margin-bottom: 25px;
+}
+
+.student-section
+  .student-section-main
+  .student-section-body
+  .secton-top-content {
+  margin-bottom: 25px;
+}
+
+.student-section
+  .student-section-main
+  .student-section-body
+  .student-section-A
+  .section-A-question-image {
+  text-align: center;
+}
+/* student-section */

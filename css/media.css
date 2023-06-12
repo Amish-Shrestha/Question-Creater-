@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+  .menu .row .section-button {
+    text-align: center;
+  }
+  .form-content .input-content .lable-con {
+    text-align: left;
+  }
+  .button-context {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .form-context {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .image-file {
+    text-align: left;
+  }
+  .file {
+    width: 250px !important;
+    height: 170px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  main #add-section .section-holder .menu .section-title {
+    font-size: 18px;
+  }
+
+  main #add-section .section-holder .menu .section-input {
+    width: 100%;
+  }
+
+  main .heading-context .content-context .logo-content .logo {
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  form .input-content .select-size,
+  form .input-content .input-text {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 968px) {
+}
